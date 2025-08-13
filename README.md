@@ -24,3 +24,4 @@ The workflow includes:
 *   pandas
 
 These libraries can be installed using pip:
+python your_script_name.py
