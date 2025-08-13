@@ -1,27 +1,115 @@
 # Automated-Classification-of-Iris-Flower-Species
 
 
-
-This project demonstrates how to use a Decision Tree Classifier to predict the species of Iris flowers based on their measurements.
-
 ## Project Overview
 
-The goal of this project is to build a machine learning model that can accurately classify Iris flowers into one of three species: setosa, versicolor, or virginica, using the well-known Iris dataset.
+This project demonstrates how to use a **Decision Tree Classifier** to predict the species of **Iris flowers** based on their measurements.
 
-The workflow includes:
+The goal is to classify an Iris flower into one of three species:
 
-1.  **Loading the Dataset**: The Iris dataset, which is included in the scikit-learn library, is loaded.
-2.  **Data Preparation**: The data is split into features (measurements) and the target (species). The target variable is mapped from numerical representation to actual species names for better readability.
-3.  **Data Splitting**: The dataset is divided into training and testing sets to train and evaluate the model.
-4.  **Model Training**: A Decision Tree Classifier is trained on the training data.
-5.  **Model Evaluation**: The trained model is evaluated on the test data using accuracy and a classification report.
-6.  **Prediction**: The model is used to predict the species of a new, unseen Iris flower based on its measurements.
+* *Setosa*
+* *Versicolor*
+* *Virginica*
 
-## Requirements
+using the famous **Iris dataset** included in the `scikit-learn` library.
 
-*   Python 3.6+
-*   scikit-learn
-*   pandas
+---
 
-These libraries can be installed using pip:
-python your_script_name.py
+## 🛠 Workflow
+
+1. **Loading the Dataset**
+
+   * The built-in Iris dataset from `scikit-learn` is loaded.
+
+2. **Data Preparation**
+
+   * Features: Sepal length, Sepal width, Petal length, Petal width
+   * Target: Species name (mapped from numeric labels for readability)
+
+3. **Data Splitting**
+
+   * Dataset is split into **training** and **testing** sets.
+
+4. **Model Training**
+
+   * A **Decision Tree Classifier** is trained on the training data.
+
+5. **Model Evaluation**
+
+   * Accuracy score and classification report are generated for test data.
+
+6. **Prediction**
+
+   * Model predicts the species of a new, unseen Iris flower from its measurements.
+
+---
+
+## 📦 Requirements
+
+* Python **3.6+**
+* scikit-learn
+* pandas
+
+Install the required libraries using:
+
+```bash
+pip install scikit-learn pandas
+```
+
+---
+
+## ▶️ How to Run
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/iris-decision-tree.git
+cd iris-decision-tree
+```
+
+2. **Run the script**
+
+```bash
+python iris_decision_tree.py
+```
+
+3. **View Output**
+
+   * Accuracy score of the model
+   * Classification report
+   * Prediction for a new flower’s measurements
+
+---
+
+## 📊 Example Output
+
+```
+Accuracy on Test Data: 1.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       1.00      1.00      1.00         9
+   virginica       1.00      1.00      1.00        11
+
+    accuracy                           1.00        30
+   macro avg       1.00      1.00      1.00        30
+weighted avg       1.00      1.00      1.00        30
+```
+
+---
+
+## 📚 Dataset Reference
+
+The Iris dataset was first introduced by **Ronald A. Fisher (1936)** and is a classic dataset for pattern recognition.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — feel free to use and modify it.
+
+---
+
+
