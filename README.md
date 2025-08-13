@@ -63,7 +63,7 @@ pip install scikit-learn pandas
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/iris-decision-tree.git
+git clone https://github.com/Snehanshu03/Automated-Classification-of-Iris-Flower-Species.git
 cd iris-decision-tree
 ```
 
