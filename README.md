@@ -81,7 +81,7 @@ python iris_decision_tree.py
 
 ---
 
-## 📊 Example Output
+##  Output
 
 ```
 Accuracy on Test Data: 1.00
