@@ -1,17 +1,18 @@
 # Automated-Classification-of-Iris-Flower-Species
 
 
-## Project Overview
+
+## 📌 Project Overview
 
 This project demonstrates how to use a **Decision Tree Classifier** to predict the species of **Iris flowers** based on their measurements.
 
-The goal is to classify an Iris flower into one of three species:
+The objective is to classify an Iris flower into one of three species:
 
 * *Setosa*
 * *Versicolor*
 * *Virginica*
 
-using the famous **Iris dataset** included in the `scikit-learn` library.
+using the well-known **Iris dataset** included in the `scikit-learn` library.
 
 ---
 
@@ -19,28 +20,28 @@ using the famous **Iris dataset** included in the `scikit-learn` library.
 
 1. **Loading the Dataset**
 
-   * The built-in Iris dataset from `scikit-learn` is loaded.
+   * Use `scikit-learn` to load the built-in Iris dataset.
 
 2. **Data Preparation**
 
    * Features: Sepal length, Sepal width, Petal length, Petal width
-   * Target: Species name (mapped from numeric labels for readability)
+   * Target: Species name (mapped from numeric labels).
 
 3. **Data Splitting**
 
-   * Dataset is split into **training** and **testing** sets.
+   * Train/Test split for evaluation.
 
 4. **Model Training**
 
-   * A **Decision Tree Classifier** is trained on the training data.
+   * Train a **Decision Tree Classifier** on the training data.
 
 5. **Model Evaluation**
 
-   * Accuracy score and classification report are generated for test data.
+   * Accuracy score and classification report for performance metrics.
 
 6. **Prediction**
 
-   * Model predicts the species of a new, unseen Iris flower from its measurements.
+   * Predict the species of a new Iris flower from its measurements.
 
 ---
 
@@ -50,38 +51,51 @@ using the famous **Iris dataset** included in the `scikit-learn` library.
 * scikit-learn
 * pandas
 
-Install the required libraries using:
+Install the dependencies (for **Jupyter Notebook** or **local environment**):
 
 ```bash
 pip install scikit-learn pandas
+```
+
+For **Google Colab**, you can run:
+
+```python
+!pip install scikit-learn pandas
 ```
 
 ---
 
 ## ▶️ How to Run
 
-1. **Clone the repository**
+### **🔹 Option 1: Google Colab**
 
-```bash
-git clone https://github.com/Snehanshu03/Automated-Classification-of-Iris-Flower-Species.git
-cd iris-decision-tree
-```
+1. Open the notebook in Colab:
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/iris-decision-tree/blob/main/Iris_Decision_Tree.ipynb)
 
-2. **Run the script**
-
-```bash
-python iris_decision_tree.py
-```
-
-3. **View Output**
-
-   * Accuracy score of the model
-   * Classification report
-   * Prediction for a new flower’s measurements
+2. Run all cells (`Runtime → Run all`).
 
 ---
 
-##  Output
+### **🔹 Option 2: Jupyter Notebook (Local)**
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/iris-decision-tree.git
+cd iris-decision-tree
+```
+
+2. Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+3. Open `Iris_Decision_Tree.ipynb` and run all cells.
+
+---
+
+## 📊 Output
 
 ```
 Accuracy on Test Data: 1.00
@@ -111,5 +125,6 @@ The Iris dataset was first introduced by **Ronald A. Fisher (1936)** and is a cl
 This project is licensed under the **MIT License** — feel free to use and modify it.
 
 ---
+
 
 
