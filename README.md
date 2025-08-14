@@ -110,6 +110,12 @@ Classification Report:
     accuracy                           1.00        30
    macro avg       1.00      1.00      1.00        30
 weighted avg       1.00      1.00      1.00        30
+
+------------------------
+
+--- Prediction for New Flower ---
+Input measurements: [5.0, 3.4, 1.5, 0.2]
+Predicted Species: setosa
 ```
 
 ---
