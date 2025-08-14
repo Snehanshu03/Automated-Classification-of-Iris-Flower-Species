@@ -81,7 +81,7 @@ For **Google Colab**, you can run:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/iris-decision-tree.git
+[git clone https://github.com/your-username/iris-decision-tree.git](https://github.com/Snehanshu03/Automated-Classification-of-Iris-Flower-Species.git)
 cd iris-decision-tree
 ```
 
