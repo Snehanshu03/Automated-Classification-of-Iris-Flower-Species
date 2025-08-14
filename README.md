@@ -2,7 +2,7 @@
 
 
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates how to use a **Decision Tree Classifier** to predict the species of **Iris flowers** based on their measurements.
 
@@ -45,7 +45,7 @@ using the well-known **Iris dataset** included in the `scikit-learn` library.
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 * Python **3.6+**
 * scikit-learn
@@ -65,9 +65,9 @@ For **Google Colab**, you can run:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
-### **🔹 Option 1: Google Colab**
+### ** Option 1: Google Colab**
 
 1. Open the notebook in Colab:
    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/iris-decision-tree/blob/main/Iris_Decision_Tree.ipynb)
@@ -76,7 +76,7 @@ For **Google Colab**, you can run:
 
 ---
 
-### **🔹 Option 2: Jupyter Notebook (Local)**
+### ** Option 2: Jupyter Notebook (Local)**
 
 1. Clone the repository:
 
@@ -95,7 +95,7 @@ jupyter notebook
 
 ---
 
-## 📊 Output
+##  Output
 
 ```
 Accuracy on Test Data: 1.00
@@ -114,15 +114,13 @@ weighted avg       1.00      1.00      1.00        30
 
 ---
 
-## 📚 Dataset Reference
+##  Dataset Reference
 
 The Iris dataset was first introduced by **Ronald A. Fisher (1936)** and is a classic dataset for pattern recognition.
 
 ---
 
-## 📜 License
 
-This project is licensed under the **MIT License** — feel free to use and modify it.
 
 ---
 
